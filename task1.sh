@@ -6,9 +6,9 @@ touch ~/file1/tolga${x}.txt && echo "hello\nworld\ndeneme1" >> ~/file1/tolga${x}
 touch ~/file2/tolga${x}.txt && echo "hello\nworld\ndeneme2" >> ~/file2/tolga${x}.txt
 mv ~/file2/tolga${x}.txt ~/file2/tolga${x}.txt.old
 cp ~/file1/tolga${x}.txt ~/file2/tolga${x}.txt
-tar -zcvf copy.taz.gz task1.sh
-done
 
+done
+tar -zcvf copy.taz.gz task1.sh
 echo "Process is succesfully"
 
 
